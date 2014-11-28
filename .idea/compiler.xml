@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="access-timeout" />
+        <module name="access-timeout-meta" />
+        <module name="alternate-descriptors" />
+        <module name="application-composer" />
+        <module name="applicationexception" />
+        <module name="async-methods" />
+        <module name="async-postconstruct" />
+        <module name="bean-validation-design-by-contract" />
+        <module name="business-logic" />
+        <module name="business-model" />
+        <module name="cdi-alternative-and-stereotypes" />
+        <module name="cdi-application-scope" />
+        <module name="cdi-basic" />
+        <module name="cdi-ejbcontext-jaas" />
+        <module name="cdi-events" />
+        <module name="cdi-interceptors" />
+        <module name="cdi-produces-disposes" />
+        <module name="cdi-produces-field" />
+        <module name="cdi-query" />
+        <module name="cdi-realm" />
+        <module name="cdi-request-scope" />
+        <module name="cdi-session-scope" />
+        <module name="change-jaxws-url" />
+        <module name="client-resource-lookup-preview" />
+        <module name="component-interfaces" />
+        <module name="cucumber-jvm" />
+        <module name="custom-injection" />
+        <module name="datasource-ciphered-password" />
+        <module name="datasource-definition" />
+        <module name="datasource-versioning" />
+        <module name="decorators" />
+        <module name="deltaspike-configproperty" />
+        <module name="deltaspike-exception-handling" />
+        <module name="deltaspike-fullstack" />
+        <module name="deltaspike-i18n" />
+        <module name="dynamic-dao-implementation" />
+        <module name="dynamic-datasource-routing" />
+        <module name="dynamic-implementation" />
+        <module name="dynamic-proxy-to-access-mbean" />
+        <module name="ejb-examples" />
+        <module name="ejb-webservice" />
+        <module name="groovy-cdi" />
+        <module name="groovy-jpa" />
+        <module name="groovy-spock" />
+        <module name="helloworld-weblogic" />
+        <module name="injection-of-connectionfactory" />
+        <module name="injection-of-datasource" />
+        <module name="injection-of-ejbs" />
+        <module name="injection-of-entitymanager" />
+        <module name="injection-of-env-entry" />
+        <module name="interceptors" />
+        <module name="jpa-eclipselink" />
+        <module name="jpa-enumerated" />
+        <module name="jpa-hibernate" />
+        <module name="jsf-cdi-and-ejb" />
+        <module name="jsf-managedBean-and-ejb" />
+        <module name="lookup-of-ejbs" />
+        <module name="lookup-of-ejbs-with-descriptor" />
+        <module name="mbean-auto-registration" />
+        <module name="moviefun" />
+        <module name="moviefun-rest" />
+        <module name="movies-complete" />
+        <module name="movies-complete-meta" />
+        <module name="mtom" />
+        <module name="multi-jpa-provider-testing" />
+        <module name="multiple-arquillian-adapters" />
+        <module name="multiple-tomee-arquillian" />
+        <module name="myfaces-codi-demo" />
+        <module name="persistence-fragment" />
+        <module name="pojo-webservice" />
+        <module name="polling-client" />
+        <module name="polling-core" />
+        <module name="polling-domain" />
+        <module name="polling-web" />
+        <module name="projectstage-demo" />
+        <module name="quartz-beans" />
+        <module name="quartz-ra" />
+        <module name="realm-in-tomee" />
+        <module name="reload-persistence-unit-properties" />
+        <module name="resources-declared-in-webapp" />
+        <module name="rest-applicationcomposer" />
+        <module name="rest-applicationcomposer-mockito" />
+        <module name="rest-cdi" />
+        <module name="rest-example" />
+        <module name="rest-example-with-application" />
+        <module name="rest-jaas" />
+        <module name="rest-on-ejb" />
+        <module name="rest-xml-json" />
+        <module name="scala-basic" />
+        <module name="schedule-events" />
+        <module name="schedule-expression" />
+        <module name="schedule-methods" />
+        <module name="schedule-methods-meta" />
+        <module name="server-events" />
+        <module name="simple-cdi-interceptor" />
+        <module name="simple-cmp2" />
+        <module name="simple-mdb" />
+        <module name="simple-mdb-and-cdi" />
+        <module name="simple-mdb-with-descriptor" />
+        <module name="simple-osgi-api" />
+        <module name="simple-osgi-camel-client" />
+        <module name="simple-osgi-core" />
+        <module name="simple-osgi-local-lookup-client" />
+        <module name="simple-osgi-remote-client" />
+        <module name="simple-osgi-service-injection" />
+        <module name="simple-rest" />
+        <module name="simple-singleton" />
+        <module name="simple-stateful" />
+        <module name="simple-stateful-callbacks" />
+        <module name="simple-stateless" />
+        <module name="simple-stateless-callbacks" />
+        <module name="simple-stateless-with-descriptor" />
+        <module name="simple-webservice" />
+        <module name="simple-webservice-without-interface" />
+        <module name="spring-data-proxy" />
+        <module name="spring-data-proxy-meta" />
+        <module name="standard-ejbd-server" />
+        <module name="struts" />
+        <module name="telephone-stateful" />
+        <module name="testcase-injection" />
+        <module name="testing-security" />
+        <module name="testing-security-2" />
+        <module name="testing-security-3" />
+        <module name="testing-security-4" />
+        <module name="testing-security-meta" />
+        <module name="testing-transactions" />
+        <module name="testing-transactions-bmt" />
+        <module name="tomee-jersey-eclipselink" />
+        <module name="transaction-rollback" />
+        <module name="troubleshooting" />
+        <module name="webservice-attachments" />
+        <module name="webservice-handlerchain" />
+        <module name="webservice-holder" />
+        <module name="webservice-inheritance" />
+        <module name="webservice-security" />
+        <module name="webservice-ws-security" />
+        <module name="webservice-ws-with-resources-config" />
+        <module name="ws-pojo-cdi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rest-example-with-application" target="1.6" />
+      <module name="simple-osgi" target="1.6" />
+      <module name="simple-osgi-core" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
